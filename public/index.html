@@ -38,8 +38,30 @@
         <h2><strong>Jay</strong> Sanders</h2>
       </div>
     </header>
-    
+
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main class="container">
+      <section class="new-tweet">
+        <div class="character error">
+          Hey, bring characters down to 140 or less!
+        </div>
+        <div class="blank error">
+          Hey, you have to type something first! Tweet a song lyric!
+        </div>
+        <form action="/tweets/" method="POST">
+          <label for="tweet-text">What are you humming about?</label>
+          <textarea name="text" id="tweet-text"></textarea>
+          <div class="submitAndCounter">
+            <button class="button" type="submit">Tweet</button>
+            <output name="counter" class="counter" for="tweet-text">140</output>
+          </div>
+        </form>
+        <div></div>
+
+        <div class="tweets-container">
+          <!-- /scripts/client.js is where you'll find the container shape for everything that goes here -->
+        </div>
+      </section>
+    </main>
   </body>
 </html>
