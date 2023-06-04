@@ -10,3 +10,19 @@ nav {
     position: fixed;
     top: 0;
 }
+
+span {
+    font-size: 42px;
+}
+
+.tagline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrow {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
