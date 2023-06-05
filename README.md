@@ -1,10 +1,16 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, jQuerry, and AJAX.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+This Tweeter app is built on a template from Lighthouse Labs' Web Development Flex Program and modifide to their requirements and suggestions.
 
-## Getting Started
+## Completed Project
+
+!["Desktop Screenshot"](https://github.com/PlumScum/tweeterApp/blob/master/docs/desktopScreenshot.png?raw=true)
+
+!["Mobile Screenshot"](https://github.com/PlumScum/tweeterApp/blob/master/docs/mobileScreenshot.png?raw=true)
+
+!["Error Screenshot"](https://github.com/PlumScum/tweeterApp/blob/master/docs/errorScreenshot.png?raw=true) 
 
 1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
 2. Clone your repository onto your local device.
