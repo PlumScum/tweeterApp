@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 $(document).ready(function() {
   const $tweetText = $('#tweet-text');
   const $counter = $('.counter');
