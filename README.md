@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone built with HTML, CSS, JS, jQuerry, and AJAX.
 
-This Tweeter app is built on a template from Lighthouse Labs' Web Development Flex Program and modifide to their requirements and suggestions.
+This Tweeter app is built on a template from Lighthouse Labs' Web Development Flex Program and modified to their requirements and suggestions.
 
 ## Completed Project
 
