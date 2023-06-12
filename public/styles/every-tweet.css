@@ -1,0 +1,22 @@
+.tweet-post {
+    border: 3px solid black;
+    margin-top:  30px;
+}
+
+.tweet-post:hover {
+    box-shadow: 5px 5px #434444;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.fas.fa-flag:hover {
+    color: #4056A1;
+}
+.fas.fa-retweet:hover {
+    color: #4056A1;
+}
+.fas.fa-heart:hover {
+    color: #4056A1;
+}
