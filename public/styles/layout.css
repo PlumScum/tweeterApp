@@ -47,3 +47,32 @@ main {
   display: flex;
   justify-self: center;
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 2560px) {
+
+  body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  main {
+    padding-top: 15%;
+  }
+
+  header {
+    margin-top: 15%;
+    margin-left: 3%;
+    margin-right: 13%;
+  }
+
+  .new-tweet {
+    margin-right: 3%;
+  }
+
+  .error {
+    margin-left: 0;
+  }
+
+}
