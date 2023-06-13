@@ -1,11 +1,12 @@
 header {
-    height: 400ps;
+    height: 400px;
     width: 100%;
-    background-color: rbg(165, 190, 165);
+    background-color: #4056A1;
     background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 120px;
+    top: 0;
 }
