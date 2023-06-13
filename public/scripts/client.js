@@ -1,9 +1,4 @@
 /* eslint-disable no-undef */
-/*
- * Client-side JS logic goes here
- * jQuery is already loaded
- * Reminder: Use (and do all your DOM work in) jQuery's document ready function
- */
 $(() => {
 
   // Escapes user input to prevent XSS attacks
@@ -73,16 +68,9 @@ $(() => {
     $.ajax({
       url: '/tweets',
       method: 'POST',
-      data: $('form').serialize(),
-      success: () => {
-        loadTweets();
-        this.reset();
-      },
-    
-      error: (err) => {
-        console.log(`error: ${err}`);
-      }
-    });
+      data: $('form').serialize()
+  
+    }).then(loadTweets).catch(error => console.log(error));
   });
     
   // Loads tweets from our tweets endpoint
@@ -99,6 +87,8 @@ $(() => {
         console.log(`error: ${err}`);
       }
     });
+    $('#tweet-text').val('');
+    $('.counter').text(140);
   };
     
     
