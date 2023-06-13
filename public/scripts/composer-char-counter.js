@@ -1,11 +1,13 @@
 /* eslint-disable no-undef */
-$(document).ready(function() {
-  const $tweetText = $('#tweet-text');
-  const $counter = $('.counter');
+const $tweetText = $('#tweet-text');
+const $counter = $('.counter');
 
+
+$(function() {
+  const maxCharLength = 140;
   $tweetText.on('input', function() {
     const inputLength = $(this).val().length;
-    const counter = 140 - inputLength;
+    const counter = maxCharLength - inputLength;
 
     $counter.text(counter);
 
