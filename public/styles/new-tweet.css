@@ -31,15 +31,6 @@ footer {
     margin-bottom: 30px;
 }
 
-.tweet-post {
-    border: 3px solid black;
-    margin-top:  30px;
-}
-
-.tweet-post:hover {
-    box-shadow: -30px 15px #567683;
-}
-
 
 #tweet-text {
     border: 0;
@@ -63,4 +54,9 @@ footer {
 
 .red-class {
     color: red
+}
+
+.entry {
+    overflow-wrap: anywhere;
+    margin: 1em;
 }
