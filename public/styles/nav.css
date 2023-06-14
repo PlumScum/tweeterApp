@@ -2,7 +2,6 @@
 nav {
     height: 120px;
     width: 100%;
-    /* remove and put into media query for desktop */
     background-color: #4056A1; 
     color: #FFFFFF;
     padding: 0 1.5em;
